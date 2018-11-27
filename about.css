@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .container {
   float: left;
@@ -27,12 +28,34 @@
   -ms-transform: translate(-50%, -50%);
   text-align: left;
   margin-left:
+=======
+body{
+  background-image: url("photo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.container:hover .image {
-  opacity: 0.3;
+header {
+    color: blue;
+    position: fixed;
+    top: 0;
+    left: 10;
+    width: 100%;
+    z-index: 10000;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+>>>>>>> f264eea495616765630704d33f411cf3e5ccfe82
 }
 
+h2 {
+  color: black;
+  font-family:"TeX Gyre Adventor";
+  font-size: 60px;
+}
+
+<<<<<<< HEAD
 .container:hover .middle {
   opacity: 1;
 }
@@ -43,4 +66,11 @@
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+=======
+p {
+  color: black;
+  font-family:"TeX Gyre Adventor";
+  font-size: 17px;
+  text-align: center;
+>>>>>>> f264eea495616765630704d33f411cf3e5ccfe82
 }

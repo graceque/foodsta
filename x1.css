@@ -9,7 +9,6 @@ nav ul {
   margin-right:65px;
 
 }
-
 header {
     position: fixed;
     top: 0;
@@ -109,9 +108,9 @@ nav ul {
 }
 
 h1 {
-  color: #ffffff;
-  font-family:"TeX Gyre Adventor";
-  font-size: 100px
+  color: black;
+  font-family:"crimson text";
+  font-size: 32px
 }
 p{
   color:blue;

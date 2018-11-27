@@ -1,16 +1,20 @@
 
 .container {
-    position: relative;
+  float: left;
+  display: inline-grid;
+    position:sticky;
     width: 50%;
+    margin-left: 50x
 }
 
 .image {
   opacity: 1;
-  display: block;
-  width: 100%;
+  display:inline-grid;
+  width: 80%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  margin-left: 0
 }
 
 .middle {
@@ -21,7 +25,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
+  margin-left:
 }
 
 .container:hover .image {
@@ -33,7 +38,8 @@
 }
 
 .text {
-  background-color: #4CAF50;
+  text-align: center;
+  background-color: pink;
   color: white;
   font-size: 16px;
   padding: 16px 32px;

@@ -1,39 +1,13 @@
-
-
-.container {
-  float: left;
-  display:block;
-    position:sticky;
-    width: 50%;
-    margin-left: 50x
-}
-
-.image {
-  opacity: 1;
-  display:inline-grid;
-  width: 80%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  margin-left: 0
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: left;
-  margin-left:
-=======
 body{
   background-image: url("photo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+
+.image{
+  float: left;
+  margin-left: 200px;
 }
 
 header {
@@ -46,31 +20,18 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
->>>>>>> f264eea495616765630704d33f411cf3e5ccfe82
 }
 
 h2 {
   color: black;
   font-family:"TeX Gyre Adventor";
-  font-size: 60px;
-}
-
-<<<<<<< HEAD
-.container:hover .middle {
-  opacity: 1;
-}
-
-.text {
+  font-size: 50px;
   text-align: center;
-  background-color: pink;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-=======
+}
+
 p {
   color: black;
   font-family:"TeX Gyre Adventor";
   font-size: 17px;
   text-align: center;
->>>>>>> f264eea495616765630704d33f411cf3e5ccfe82
 }

@@ -15,18 +15,21 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    line-height:2.7;
+}
+
+w3-bar w3-white w3-card {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 h1 {
   color: white;
   font-family:"TeX Gyre Adventor";
-  font-size: 100px
-}
-
-h2 {
-  background-color: #f4d218;
-  font-family:"TeX Gyre Adventor";
-  font-size: 50px
+  font-size: 130px
 }
 .container {
 	width: 100%;

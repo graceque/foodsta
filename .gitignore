@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 .DS_Store.git.ignore
+=======
+.DS_Store
+*/.DS_Store
+>>>>>>> a60064b4a8588c55d47d3ec06574c3307ecef819

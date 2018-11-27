@@ -1,5 +1,5 @@
-body {
-   background-image: url("mapOfFood.jpg");
+body{
+  background: #EF798A;
 }
 
 nav ul {
@@ -9,12 +9,15 @@ nav ul {
   margin-right:65px;
 
 }
+
 header {
     position: fixed;
     top: 0;
     left: 10;
     width: 100%;
+    background: #EF798A;
     z-index: 10000;
+    border-bottom: 4px solid #EF798A;
 }
 .jumbotron {
   display: flex;
@@ -106,7 +109,7 @@ nav ul {
 }
 
 h1 {
-  color: black;
+  color: #ffffff;
   font-family:"crimson text";
   font-size: 32px
 }

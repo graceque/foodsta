@@ -22,3 +22,9 @@ h1 {
   font-family:"TeX Gyre Adventor";
   font-size: 100px
 }
+
+h2 {
+  background-color: #f4d218;
+  font-family:"TeX Gyre Adventor";
+  font-size: 50px
+}

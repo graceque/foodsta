@@ -1,108 +1,28 @@
-body{
-  background-color: pink;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+body {
+  margin: 0;
+  background: #131212;
 }
 
-header {
-    color: blue;
-    position: fixed;
-    top: 0;
-    left: 10;
-    width: 100%;
-    z-index: 10000;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+div#masonry {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vw;
+  font-size: 0;
 }
 
-h1 {
-  color: blue;
-  font-family:"TeX Gyre Adventor";
-  font-size: 100px
-}
-.container {
-  // padding: 4px;
-  margin:2px 0 20px 0;
-  text-align: center;
-  display:block;
-}
-.post {
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  transition: color .25s ease;
-  border-radius: .3em;
-  border: 1px solid gainsboro;
-  // padding: .2rem;
-  float: left;
-  color: $grey;
-  box-shadow: 0 2px 4px #e6e6e6;
-  background: #f6f6f6;
-  &:hover{
-    color: $pink;
-    border-color: $grey;
-    }
-  }
-img {
-    width: 100%;
-    max-width:100%;
-    border-radius: 3px;
- //   border: 1px solid gainsboro;
-  //  transition: border .25s ease;
-  }
-
-#wrapper {
-	width: 95%;
-	max-width: 1400px;
-	min-width: 400px;
-	margin: 50px auto;
+div#masonry img {
+  width: 33.3%;
+  transition: .8s opacity;
 }
 
-#instafeed {
-	column-count: 3;
-	column-gap: 15px;
-	column-fill: auto;
+div#masonry:hover img {
+  opacity: .3;
 }
 
-.post {
-	display: inline-block;
-	margin: 0 2px 15px;
-
-	column-break-inside: avoid;
-	//padding: .2rem;
-	// padding-bottom: 5px;
-	opacity: 1;
-
-	transition: all .2s ease;
+div#masonry:hover img:hover {
+  opacity: 1;
 }
-
-
-.post p {
-	font: 12px/18px Arial, sans-serif;
-	color: #333;
-	margin: 0;
-}
-
-@media (max-width: 480px) {
-	#instafeed {
-		column-count: 1;
-	}
-}
-@media (max-width: 780px) {
-	#instafeed {
-		column-count: 2;
-	}
-}
-@media (min-width: 960px) {
-	#instafeed {
-		column-count: 4;
-	}
-}
-
-@media (min-width: 1100px) {
-	#instafeed {
-		column-count: 5;
-	}
+header{
+  color: white
 }

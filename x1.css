@@ -14,9 +14,7 @@ header {
     top: 0;
     left: 10;
     width: 100%;
-    background: #EF798A;
     z-index: 10000;
-    border-bottom: 4px solid #EF798A;
 }
 .jumbotron {
   display: flex;
@@ -80,50 +78,8 @@ nav ul {
     }
 }
 
-.heart-trigger {
-    display: block;
-    order: -1;
-    padding: 12px 30px;
-    @media all and (min-width: 545px) {
-        order: initial;
-    }
-}
-
-.visible {
-    display: block;
-    transform: scale(1);
-}
-
-.fa-heart {
-    font-size: 1.8em;
-    color: #FFC4EB;
-    transition: all .2s ease-in-out;
-    &:hover {
-        color: #DE6E4B;
-        transform: scale(1.3);
-    }
-    @media all and (min-width: 545px) {
-        font-size: 1.2em;
-    }
-}
-
 h1 {
-  color: black;
-  font-family:"crimson text";
-  font-size: 32px
-}
-p{
-  color:blue;
-  font-family:"crimson text";
-  font-size: 16px
-}
-ul li{
-  background-color: gray;
-}
-h2{
-  color: green;
-  background-color: orange;
-}
-ol li{
-  background-color: teal
+  color: white;
+  font-family:"TeX Gyre Adventor";
+  font-size: 100px
 }

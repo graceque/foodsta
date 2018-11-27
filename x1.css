@@ -2,83 +2,19 @@ body{
   background-image: url("mapOfFood.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
 }
 
-nav ul {
-  width:auto;
-  float:right;
-  margin-top:-46px;
-  margin-right:65px;
-
-}
 header {
+    color: white;
     position: fixed;
     top: 0;
     left: 10;
     width: 100%;
     z-index: 10000;
-}
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-image:url('https://photos.app.goo.gl/m4j3aCdosuEmtKLc8');
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
     flex-direction: column;
-    @media all and (min-width: 545px) {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    li {
-        display: none;
-        @media all and (min-width: 545px) {
-            display: block;
-        }
-    }
-    a {
-        display: block;
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        font-family: Futura, Trebuchet MS, Arial, sans-serif;
-        font-size: 0.7em;
-        color: #FFE4FA;
-        text-align: center;
-        padding: 14px 30px;
-        transition: background .25s, box-shadow .15s;
-        &:hover {
-            color: #4A4860;
-            background: #FFC4EB;
-            box-shadow: 0px 4px 0px 0px #BB8EAC;
-        }
-
-        @media all and (min-width: 545px) {
-            padding: 20px;
-        }
-    }
-}
-.heart {
-    display: none;
-    margin: 0 auto;
-    padding: 12px 30px;
-    @media all and (min-width: 545px) {
-        display: block;
-        margin: initial;
-    }
+    justify-content: center;
+    text-align: center;
 }
 
 h1 {

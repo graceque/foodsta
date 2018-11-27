@@ -2,6 +2,13 @@ body{
   background: #EF798A;
 }
 
+nav ul {
+  width:auto;
+  float:right;
+  margin-top:-46px;
+  margin-right:65px;
+
+}
 header {
     position: fixed;
     top: 0;
